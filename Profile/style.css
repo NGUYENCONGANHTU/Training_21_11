@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Poppins:wght@300&family=Roboto+Mono:wght@500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto Mono;
+}
+body
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://khoinguonsangtao.vn/wp-content/uploads/2022/10/hinh-nen-dragon-ball.jpeg);
+}
+#login-container
+{
+    border: 3px solid;
+    max-width: 400px;
+    margin: auto ;
+    height: 470px;
+    margin-top: 225px;
+    border-radius: 10px;
+    background: rgba(88,37,123, 0.1);
+    opacity: 1;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right bottom,rgb(204, 19, 204),rgb(233, 188, 75));
+   
+}
+.form-box{
+    padding: 20px;
+   
+    
+}
+.form-box h1{
+    text-align: center;
+    color: rgb(231, 25, 231);
+    
+}
+.row-one
+{
+    margin-top:30px;
+    margin-bottom: 20px;
+}
+
+label
+{
+    font-size: 25px;
+    color: whitesmoke;
+}
+input
+{
+    width: 100%;
+    height: 40px;
+    opacity: 2;
+    color: black;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    background: rgba(88,37,123, 0.1);
+}
+.text
+{
+    margin-top: 40px;
+}
+p{
+    margin-top: 20px;
+    color: rgb(17, 17, 145);
+}
+a{
+    
+    color: rgb(206, 15, 15);
+}
+button
+{
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    height: 40px;
+    cursor: pointer;
+    background:linear-gradient(rgb(204, 19, 204),rgb(238 173 14));
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+#setting-container
+{
+    border: 2px solid rgb(245, 18, 245) ;
+    max-width: 300px;
+    margin: auto ;
+    height: 200px;
+    margin-top: 225px;
+    border-radius: 10px;
+    background: rgba(88,37,123, 0.1);
+    opacity: 1;
+    padding: 10px;
+    display: none;
+}
+#setting-container h2{
+    text-align: center;
+}
+#setting-container button
+{
+    margin-top: 50px;
+    max-width: 100px;
+    margin-left: 90px;
+}
+

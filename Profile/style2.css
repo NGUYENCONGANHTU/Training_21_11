@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Poppins:wght@300&family=Roboto+Mono:wght@500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto Mono;
+}
+.container
+{
+    max-width: 500px;
+    height: 450px;
+    padding: 20px;
+    margin-top: 240px;
+    border: 5px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right bottom, #4031c0, yellow);
+    
+}
+body
+{
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://khoinguonsangtao.vn/wp-content/uploads/2022/10/hinh-nen-dragon-ball.jpeg);
+}
+input
+{
+    width: 100%;
+    margin-top: 20px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+    font-size: 18px;
+   border-radius: 5px;
+    color: black;
+    
+}
+.sex
+{
+    float: left;
+    color: black;
+    font-weight: bolds;
+}
+.sex input
+{
+    width:50px;
+    height: 15px;
+    
+}
+.hobby
+{
+    float: left;
+    color: black;
+    font-weight: bold;
+}
+.hobby input
+{
+    width:50px;
+    height: 15px;
+}
+.btn
+{
+
+margin-top: 50px;
+
+}
+button
+{
+    width: 100px;cursor: pointer;
+    margin-top: 50px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    outline: none;
+    
+}
+button:hover
+{
+   background-color:rgb(152, 149, 149);
+   transition: 0.5s;
+}
