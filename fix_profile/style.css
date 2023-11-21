@@ -1,0 +1,61 @@
+  @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Poppins:wght@300;400&family=Roboto+Mono:wght@500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    width: 100%;
+    background-image: url(https://toigingiuvedep.vn/wp-content/uploads/2022/07/hinh-anh-bien-may-dep.jpg);
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+    height: 960px;
+
+
+}
+.container
+{
+    width: 400px;
+    background: white;
+    color: rgb(48, 48, 212);
+    border-radius: 10px;
+    padding: 20px;
+}
+.container h1{
+    text-align: center;
+}
+#form-login
+{
+    margin-top: 30px;
+}
+input
+{
+    border: none;
+    background:none;
+    border-bottom: 1px solid rgb(48, 48, 212);
+    width: 100%;
+    margin: 15px 0;
+    font-size: 18px;
+    outline: none;
+}
+.login-btn
+{
+    max-width: 150px;
+    margin: auto;
+    text-align: center;
+}
+.login-btn button
+{
+    background: rgb(48, 48, 212);
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 15px;
+}
