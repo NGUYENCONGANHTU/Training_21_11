@@ -1,9 +1,10 @@
-var userID = document.getElementById('userID').value;
-var email = document.getElementById('email').value;
-var password = document.getElementById('password').value;
-var errorMessage = document.getElementById('error-message');
 
 function validateLogin(){
+    var email = document.getElementById('email').value;
+    var password = document.getElementById('password').value;
+    var errorMessage = document.getElementById('error-message');
+    var userID = document.getElementById('userID').value;
+
     if (!/^[A-Za-z0-9]{6,}$/.test(userID)) {
         errorMessage.innerHTML = 'UserID không hợp lệ';
         errorMessage.style.color = "red";
